@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial;
+}
+
+.venstre {
+  width: 20%;
+  background-image: url(pizza.jpg);
+  background-size: cover;
+  background-color: #c9c9c9;
+}
+
+.indexbilde {
+
+  max-width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  width: 100%;
+}
+
+.slider {
+  height: 200px;
+  position: relative;
+}
+
+.sliderbilde {
+  height: 100%;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overgang{
+  -webkit-animation-name : overgang;
+  -webkit-animation-duration:1.5s;
+  animation-name : overgang;
+  animation-duration:1.5s;
+}
+
+@-webkit-keyframes overgang{
+  from{
+    opacity: .5;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes overgang{
+  from{
+    opacity: .5;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    .slider {
+        display:none;
+    }
+}
+
+.sliderbilde img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.høyre {
+  width: 20%;
+  background-image: url(pizza.jpg);
+  background-size: cover;
+  transform: scaleX(-1);
+  background-color: #c9c9c9;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background-image: url(pizza.jpg);
+}
+
+.navigasjon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 80px;
+  background-color: transparent;
+}
+.logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 15px;    
+}
+.navigasjon > a {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+  height: 80px;        
+  line-height: 80px;    
+  font-family: Arial;
+  font-size: 20px;
+  text-decoration: none;
+  color: #800000;
+  text-align: center;
+}
+
+.hovedinnhold {
+  background-color: black;
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+article {
+  text-overflow: auto;
+}
+
+.info {
+  flex: 2;
+  padding: 30px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.pizzameny {
+  flex: 2;
+  text-overflow: auto;
+  overflow-y: auto;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.menybilde {
+  display: block;
+  max-width: 200px;
+
+}
+
+.skjemacontainer {
+  flex: 2;
+  padding: 30px;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #777;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+}
+
+.footertext {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  width: 300px;
+
+}
+
+.footertext p {
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  max-width: 100%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+textarea {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+
+
+
