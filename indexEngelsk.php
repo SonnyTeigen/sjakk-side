@@ -27,8 +27,6 @@
     <h1>Manual chess</h1>
     <a href=""></a>
     <a href="assistertEngelsk.php">Assisted</a>
-    <a href="logginnEngelsk.php">Log in</a>
-    <a href="signupEngelsk.php">Register</a>
     <a href="logoutEngelsk.php">Log out</a>
     <div class="dropdown">
       <button class="dropbtn">Language</button>

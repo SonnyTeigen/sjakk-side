@@ -27,8 +27,6 @@
     <h1>Assistert Sjakk</h1>
     <a href=""></a>
     <a href="index.php">Manuell</a>
-    <a href="logginn.php">Logg inn</a>
-    <a href="signup.php">Registering</a>
     <a href="logout.php">Logg ut</a>
     <div class="dropdown">
       <button class="dropbtn">Språk</button>
@@ -45,6 +43,7 @@
 <div class= "hovedinnhold">
 
 //Sjakkbrettet lastes inn. Denne varianten har regeldefinerte bevegelser og "kunstig intelligens".
+//Copyright (c) 2017 Stefan Haack <shaack@gmail.com> (http://shaack.com)(https://github.com/shaack/cm-chessboard)
   <div class="spillcontainer">
 <div class="board" id="board"></div>
 <script type="module">
