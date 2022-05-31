@@ -1,4 +1,4 @@
-//Oppstart for PHP
+<!--Oppstart for PHP-->
 <?php
    session_start();
 
@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  //Metadata som definerer bredde på siden, link til CSS og import av eksternt Javascript. 
+  <!--Metadata som definerer bredde på siden, link til CSS og import av eksternt Javascript.-->
    <title>Hovedside</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta charset="utf-8">
@@ -23,7 +23,7 @@
 
 <body>
 
-//Titler og sidevalgsmeny 
+<!--Titler og sidevalgsmeny-->
 <header>
   <nav class="navigasjon">
     <img class="logo" src="./assets/images/konge.png" alt="logo">
@@ -41,7 +41,7 @@
     </div>
   </nav>
 
-  //Knapp med javascript som viser sidebar mer sjakkregler.
+  <!--Knapp med javascript som viser sidebar mer sjakkregler.-->
   <button onclick="myFunction()"><h2>Vis/Skjul Regler</h2></button>
 </header>
 
@@ -49,8 +49,8 @@
 
   <div class="spillcontainer">
 
-//Sjakkbrettet lastes inn. Denne sjakkvarianten har åpent spill.
-//Copyright (c) 2017 Stefan Haack <shaack@gmail.com> (http://shaack.com)(https://github.com/shaack/cm-chessboard)
+<!--Sjakkbrettet lastes inn. Denne sjakkvarianten har åpent spill.-->
+<!--Copyright (c) 2017 Stefan Haack <shaack@gmail.com> (http://shaack.com)(https://github.com/shaack/cm-chessboard)-->
 <div class="board" id="board"></div>
 <script type="module">
     import {Chessboard} from "./src/cm-chessboard/Chessboard.js"
@@ -61,7 +61,7 @@
     board.enableMoveInput()
 </script>
  
- //Funksjon for å vise/skjule sidebar med regler på høyre side
+ <!--Funksjon for å vise/skjule sidebar med regler på høyre side-->
  <script>
  function myFunction() {
   var x = document.getElementById("hoyre");
@@ -76,7 +76,7 @@
 <div id="hoyre">
     <article><h1>Sjakkregler</h1> 
 
-//dynamisk tilbakemelding basert på innlogget bruker.
+<!--dynamisk tilbakemelding basert på innlogget bruker.-->
 <h2>Hei, <?php echo $user_data['Bruker_navn']; ?>, dette er spillets gang:</h2> 
 
   <p>Den som spiller med de hvite brikkene som benevnes «hvit», mens spilleren som spiller med de svarte brikkene som benevnes «svart» eller «sort». Det er alltid «hvit» som starter spillet, og man flytter alltid bare ett trekk om gangen før det blir motstanders tur.</p>  

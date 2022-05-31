@@ -42,8 +42,8 @@
 
 <div class= "hovedinnhold">
 
-//Sjakkbrettet lastes inn. Denne varianten har regeldefinerte bevegelser og "kunstig intelligens".
-//Copyright (c) 2017 Stefan Haack <shaack@gmail.com> (http://shaack.com)(https://github.com/shaack/cm-chessboard)
+<!--Sjakkbrettet lastes inn. Denne varianten har regeldefinerte bevegelser og "kunstig intelligens".-->
+<!--Copyright (c) 2017 Stefan Haack <shaack@gmail.com> (http://shaack.com)(https://github.com/shaack/cm-chessboard)-->
   <div class="spillcontainer">
 <div class="board" id="board"></div>
 <script type="module">
